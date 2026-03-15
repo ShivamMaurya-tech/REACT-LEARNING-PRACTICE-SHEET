@@ -1,0 +1,12 @@
+.container{
+    max-width: 142 rem;
+    margin: 0 auto;
+    padding: 9.6rem 2.4rem;
+    background-color: red;
+}
+
+.grid{
+    display: grid;
+    
+}
+

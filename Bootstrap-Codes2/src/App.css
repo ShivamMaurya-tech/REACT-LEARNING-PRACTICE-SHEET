@@ -1,0 +1,16 @@
+h1{
+   
+    font-weight: 800;
+   
+    margin: 20px;
+
+}
+p{
+    font-weight: 500;
+}
+
+center{
+    height: 500px;
+    border:2px solid black;
+    margin: 20px;
+}

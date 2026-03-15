@@ -1,0 +1,44 @@
+.main{
+    border: 2px solid black;
+    text-align: center;
+    width: 300px;
+    height: 104px;
+    margin-left: 20%;
+   margin-top: 40px;
+    
+    border-radius: 60px;
+    background-color: blue;
+    
+}
+
+
+.childmain{
+   
+    border: 2px solid white;
+    text-align: center;
+    padding: 30px;
+    background-color: red;
+    border-radius: 5rem;
+    margin-left: 0%;
+    
+    width: 40px;
+    height: 40px;
+
+    
+}
+.button{
+    font-size: 20px;
+   text-align: center;
+  font-size: 30px;
+}
+.ON{
+    background-color: green;
+    transform:translateX(195px) ;
+    transition-duration: 0.5s;
+}
+.Off{
+    background-color: red;
+    transform: translateX(0);
+    transition-duration: 0.5s;
+}
+

@@ -1,0 +1,17 @@
+.kg-row{
+    margin: 10px 5px;
+}
+
+
+.kg-Button{
+    min-width: 80px;
+  
+
+}
+.todo-container{
+    border: 3px solid black;
+    padding: 0.5rem;
+    margin: 10px;
+    background-color: aqua;
+}
+
