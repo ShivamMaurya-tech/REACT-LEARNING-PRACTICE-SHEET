@@ -1,35 +1,18 @@
-import SeriesData from "./API/SeriesData.json"
-import { SeriesCard } from "./SeriesCard"
-import styles from './Netflix.module.css'
-export const NetflixSeries =()=>{
-    return(
-     
-    <ul className="overlay ">
-      <div className={styles.seriesGrid}>
-         {SeriesData.map((curElement)=>(
-            
+import SeriesData from "./API/SeriesData.json";
+import { SeriesCard } from "./SeriesCard";
+import styles from "./NetflixSeries.module.css";
 
-<SeriesCard key={curElement.id} Data={curElement}></SeriesCard>
-        ))}
-</div>
-        </ul>
-      
-    )
-} 
+export const NetflixSeries = () => {
+  return (
+    <ul className={`${styles.grid} ${styles["grid-three-cols"]}`}>
+      {SeriesData.map((curelement) => {
+        return <SeriesCard key={curelement.id} data={curelement}></SeriesCard>;
+      })}
+    </ul>
+  );
+};
 
-
- 
-
-
-
-
-
-
-
-
-
-
-
+// Note ====> When key is missing then error occur:NetflixSeries.jsx:13 Each child in a list should have a unique "key" prop.
 
 /* 
 
@@ -46,19 +29,9 @@ export const NetflixSeries =()=>{
 
     <button>WatchNow</button>
 </a> */
-    
-
-
-
-
-
-
-
-
-
 
 //  <div>
-       
+
 //         <img src="KorianDrama.png" alt="" width="50%" />
 //  <h2>Name:{"Lovely Runner"}</h2>
 //  <h3> Rating:{ "9.8"}</h3>
@@ -66,5 +39,5 @@ export const NetflixSeries =()=>{
 //    <h3>  Cast: {["Kim Hye Yoon", "Byeon Woo Seok", "Song Geon Hee"]}</h3>
 //    <h3>  Genre:{ ["Romantic Comedy", "Fantasy"]}</h3>
 //    <button> watch Now </button>
-  
+
 //     </div>

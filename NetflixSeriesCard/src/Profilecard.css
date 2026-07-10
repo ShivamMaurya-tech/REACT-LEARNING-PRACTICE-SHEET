@@ -1,5 +1,12 @@
-.List{
-    color: red;
-    font-size: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.List {
+  color: red;
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.grid {
+  display: grid;
+}
+.grid-three-cols {
+  grid-template-columns: repeat(3, 1fr);
 }
