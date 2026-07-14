@@ -1,17 +1,14 @@
-import './App.css';
-import { Addingtask } from './Addingtask';
-import { Todo } from './Todo';
-import { Itemset } from './ItemAdd';
+import "./App.css";
+
+import { Todo } from "./Todo";
+
 function App() {
   return (
     <>
-    <div className="container">
-    <Todo />
-    <Addingtask />
-    <Itemset />
-    
-    </div>
-  </>
-  )
+      <section>
+        <Todo></Todo>
+      </section>
+    </>
+  );
 }
 export default App;
